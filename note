@@ -1,0 +1,41 @@
+.backvideo
+{
+    position: absolute;
+    align-items: center;
+    background-size: cover;
+    width: 1080;
+    height: 1920;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.content a
+{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 24px;
+    border: 2px solid #fff;
+    padding: 14px 70;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+<li><a href="#">HOME</a></li>
+<li><a href="#">ABOUT</a></li>
+<li><a href="#">EVENTS</a></li>
+<li><a href="https://www.neu.edu.ph/main/">NEU</a></li>
+
+.navbar
+{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
